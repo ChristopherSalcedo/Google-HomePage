@@ -1,0 +1,160 @@
+body{
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #bdc1c6;
+}
+@media (min-width: 1210px) {
+    span{
+        color: #4285f4;
+        background: white;
+        font: 16px/16px roboto-regular, arial, sans-serif;
+        position: relative;
+        left: 56%;
+        bottom:13px;
+    }
+}
+
+@media (max-width: 1210px) and (min-width: 710px) {
+    span{
+        color: #4285f4;
+        background: white;
+        font: 16px/16px roboto-regular, arial, sans-serif;
+        position: relative;
+        left: 60%;
+        bottom:10px;
+    }
+}
+@media (max-width: 709px) and (min-width: 0px) {
+    span{
+        color: #4285f4;
+        background: white;
+        font: 16px/16px roboto-regular, arial, sans-serif;
+        position: relative;
+        left: 67%;
+        bottom:10px;
+    }
+}
+nav{
+    text-align: right;
+}
+a:hover, a:active {
+    text-decoration: underline black;
+}
+a{
+    height: 20px;
+    color: rgba(0,0,0,0.87);
+    text-decoration: none;
+    padding-right:15px;
+    font: 13px/27px Roboto,RobotoDraft,Arial,sans-serif;
+}
+#topname {
+    text-align: left;
+    color: #d93025;
+    font-size: 20px;
+    border-bottom: 1px solid black;
+    margin: 25px 35px;
+    margin-left:10px
+}
+img{
+    display: block;
+    margin: auto;
+}
+
+
+input.inptxt{
+    border: 1px solid #5f6368;
+    box-shadow: none;
+    border-radius: 24px;
+    margin-left: -5px;
+    width: 90%;
+    padding: 10px;
+    background-color: transparent;
+    height: 24px;
+    font-size: 16px;
+    outline: none;
+    padding-left: 37px;
+    padding-right: 10px;
+}
+
+.srchimg{
+    position:absolute;
+    bottom:10px;
+    padding-left:10px ;
+    right:auto;
+    width:24px;
+    height:24px;
+}
+
+.txtbox{
+    margin:auto;
+    position:relative;
+    background:#fff;
+    direction: ltr;
+    width: 45%;
+}
+
+input.inpsubmbtn{
+    background-color: #303133;
+    border: 1px solid #303134;
+    border-radius: 4px;
+    color: #e8eaed;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+.advtxt{
+    float: right;
+    width: 50%;
+    height: 25px;
+    border: 1px solid hsl(0, 5%, 22%);
+    font-size: 13px;
+    padding: 1px 8px;
+}
+ul::before{
+    content: url(https://www.gstatic.com/images/branding/googlelogo/svg/googlelogo_clr_74x24px.svg);
+    float: left;
+    height: 24px;
+    width: 74px;
+}
+form.advform{
+    margin-left: 25%;
+    margin-right:25%;
+    width: 50%;
+}
+div.divformbox{
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+.advlbl{
+    color: #222;
+    font-size: 13px;
+    width: 40%;
+    line-height: 16px;
+    padding-right: 10%;
+}
+
+
+#AdvSearch{
+    float:right;
+    background-color: rgb(2, 2, 175);
+    color: white;
+    margin-top: 10px;
+    border-radius: 2px;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+    width: 134px;
+    height: 30px;
+}
+
+#AdvSearch:hover,#AdvSearch:active{
+    background-color: rgb(36, 36, 209);
+}
